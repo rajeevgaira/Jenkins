@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<suite name="Test1" parallel="false" suiteCategory="BAT" thread-count="3">
+    <test enabled="true" name="Test 0 - chrome" preserve-order="true">
+        <classes>
+            <class name="com.testing.Demo">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+        </classes>
+        <parameter name="productArea" value="SteinMart"/>
+        <parameter name="product" value="SteinMart"/>
+        <parameter name="component" value="Registration"/>
+        <parameter name="manualTestCaseId" value="123"/>
+        <parameter name="useCaseType" value="Desktop"/>
+        <parameter name="useCaseDevice" value="WINDOWS 10"/>
+        <parameter name="applicationType" value="web"/>
+        <parameter name="applicationName" value="chrome"/>
+    </test>
+    
+    <!--  <test enabled="true" name="Test 1 - chrome" preserve-order="true">
+        <classes>
+            <class name="com.info.BusinessObject.Testing">
+                <methods>
+                    <include name="Testing"/>
+                </methods>
+            </class>
+        </classes>
+        <parameter name="productArea" value="SteinMart"/>
+        <parameter name="product" value="SteinMart"/>
+        <parameter name="component" value="Registration"/>
+        <parameter name="manualTestCaseId" value="123"/>
+        <parameter name="useCaseType" value="Desktop"/>
+        <parameter name="useCaseDevice" value="WINDOWS 10"/>
+        <parameter name="applicationType" value="web"/>
+        <parameter name="applicationName" value="ff"/>
+    </test>
+    
+     <test enabled="true" name="Test 2 - chrome" preserve-order="true">
+        <classes>
+            <class name="com.info.BusinessObject.Testing">
+                <methods>
+                    <include name="Testing"/>
+                </methods>
+            </class>
+        </classes>
+        <parameter name="productArea" value="SteinMart"/>
+        <parameter name="product" value="SteinMart"/>
+        <parameter name="component" value="Registration"/>
+        <parameter name="manualTestCaseId" value="123"/>
+        <parameter name="useCaseType" value="Desktop"/>
+        <parameter name="useCaseDevice" value="WINDOWS 10"/>
+        <parameter name="applicationType" value="web"/>
+        <parameter name="applicationName" value="ie"/>
+    </test>
+     -->
+</suite>
